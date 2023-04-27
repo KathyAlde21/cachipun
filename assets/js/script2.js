@@ -5,6 +5,7 @@ let min = 1
 let max = 3
 let pc = Math.floor(Math.random()*(max-min+1)+min)
 
+/* ---------------------------------------------- */
 
 /* COMO INDICAR QUE SE ELIGIO */
 if(jugador == 1){
@@ -17,8 +18,8 @@ if(jugador == 3){
     alert('Elejiste tijera')
 }
 
-
-/* COMO DOS INDICAR QUE SE ELIGIO TODO */
+/* CONDICIONALES */
+/* COMO INDICAR QUE SE ELIGIO TODO - OPCION EXTENSA*/
 if(jugador == 1){
     alert('Elejiste piedra 🥌')
 }else if(jugador == 2){
@@ -52,7 +53,7 @@ if (pc == jugador) {
 }
 
 
-
+/* ---------------------------------------------- */
 
 
 
